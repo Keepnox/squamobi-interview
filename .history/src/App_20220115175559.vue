@@ -1,10 +1,14 @@
 <template>
   <smartphone>
     <v-app>
+
+
+    <v-app-bar >
+      <!-- -->
+    </v-app-bar>
+
+    <!-- Sizes your content based upon application components -->
     <v-main>
-        <v-app-bar >
-          <h2>Squamobi</h2>
-        </v-app-bar>
 
       <!-- Provides the application the proper gutter -->
       <v-container fluid>
@@ -14,6 +18,9 @@
       </v-container>
     </v-main>
 
+    <v-footer app>
+      <!-- -->
+    </v-footer>
   </v-app>
   </smartphone>
 

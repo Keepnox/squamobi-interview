@@ -2,9 +2,9 @@
   <smartphone>
     <v-app>
     <v-main>
-        <v-app-bar >
-          <h2>Squamobi</h2>
-        </v-app-bar>
+       <v-app-bar >
+      <!-- -->
+    </v-app-bar>
 
       <!-- Provides the application the proper gutter -->
       <v-container fluid>
