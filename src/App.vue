@@ -5,11 +5,7 @@
         <v-app-bar >
           <h2>Squamobi</h2>
         </v-app-bar>
-
-      <!-- Provides the application the proper gutter -->
       <v-container fluid>
-
-        <!-- If using vue-router -->
         <router-view></router-view>
       </v-container>
     </v-main>
