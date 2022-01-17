@@ -115,7 +115,7 @@ export default {
 }
 
 .popup-active .v-application--wrap:before {
-  content: "";
+  content: none;
 }
 .v-application--wrap:before {
   position: absolute;
@@ -149,7 +149,6 @@ export default {
   padding: 15px;
   width: 90%;
   top: 50%;
-  z-index: 2;
   transform: translateY(-50%);
 }
 .popup .add {

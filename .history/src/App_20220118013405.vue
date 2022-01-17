@@ -1,8 +1,6 @@
 <template>
   <div id="squamobi">
-    <div class="quest" style="position: absolute;">
-      For instructions you can  <a href="https://github.com/Keepnox/squamobi-interview#readme">read here</a>.
-    </div>
+    <div class="quest" style="position: absolute;"></div>
     <smartphone>
       <v-app>
       <v-main>
@@ -20,33 +18,20 @@
 
 <script>
 import Smartphone from './components/Smartphone.vue';
-// import mdQuest from './assets/quest.md'
+
 export default {
   name: 'App',
 
   components: {
     Smartphone,
   },
-  data: () => ({
-    // mdQuest
-  })
+
 
 };
 </script>
 
-<style>
-#squamobi .quest {
-  position: absolute;
-  /* width: 30%; */
-  bottom: 5%;
-  left: 50%;
-  transform: translatex(-50%);
-  font-size: 21px;
-}
-#squamobi .main-logo {
-  filter: invert(1);
-  margin: 0 auto;
-  padding: 3px;
-  height: 90%;
+<style scoped>
+.main-logo {
+  filter: invert(1)
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="squamobi">
     <div class="quest" style="position: absolute;">
-      For instructions you can  <a href="https://github.com/Keepnox/squamobi-interview#readme">read here</a>.
+      For instructions you can  <a href="https://github.com/Keepnox/squamobi-interview#readme">read here</a>
     </div>
     <smartphone>
       <v-app>
@@ -37,11 +37,7 @@ export default {
 <style>
 #squamobi .quest {
   position: absolute;
-  /* width: 30%; */
-  bottom: 5%;
-  left: 50%;
-  transform: translatex(-50%);
-  font-size: 21px;
+  width: 30%;
 }
 #squamobi .main-logo {
   filter: invert(1);

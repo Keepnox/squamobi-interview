@@ -114,17 +114,7 @@ export default {
   overflow-y: scroll;
 }
 
-.popup-active .v-application--wrap:before {
-  content: "";
-}
-.v-application--wrap:before {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
-  z-index: 1;
-}
+
 
 .v-main, v-main__wrap {
   height: 100%;
@@ -149,7 +139,6 @@ export default {
   padding: 15px;
   width: 90%;
   top: 50%;
-  z-index: 2;
   transform: translateY(-50%);
 }
 .popup .add {

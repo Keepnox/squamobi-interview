@@ -1,7 +1,7 @@
 <template>
   <div id="squamobi">
     <div class="quest" style="position: absolute;">
-      For instructions you can  <a href="https://github.com/Keepnox/squamobi-interview#readme">read here</a>.
+      For instructions you can  <a href="https://github.com/Keepnox/squamobi-interview#readme">read here</a>
     </div>
     <smartphone>
       <v-app>
