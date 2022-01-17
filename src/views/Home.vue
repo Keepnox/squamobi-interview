@@ -79,7 +79,6 @@ export default {
           image: "https://unsplash.it/640/425?random",
           id: uuidv4()
         },
-
       ]
     localStorage.setItem('todo', JSON.stringify(defaultData))
   },
@@ -114,6 +113,17 @@ export default {
   overflow: hidden;
   overflow-y: scroll;
 }
+
+.v-application--wrap:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
 .v-main, v-main__wrap {
   height: 100%;
 }

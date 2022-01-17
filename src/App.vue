@@ -3,14 +3,12 @@
     <v-app>
     <v-main>
         <v-app-bar >
-          <img v-if="showBackButton" class="back-button" src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="">
           <h2>Squamobi</h2>
         </v-app-bar>
       <v-container fluid>
         <router-view></router-view>
       </v-container>
     </v-main>
-
   </v-app>
   </smartphone>
 
@@ -26,22 +24,10 @@ export default {
     Smartphone,
   },
 
-  data: () => ({
-    showBackButton: false
-  }),
-  created() {
-    if(this.$route.path == '/') {
-      this.showBackButton = false;
-    } else {
-      this.showBackButton = true;
-    }
-  }
+  
 };
 </script>
 
 <style scoped>
-.back-button {
-  height: 22px;
-  margin-right: 15px;
-}
+
 </style>

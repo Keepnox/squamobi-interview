@@ -17,6 +17,10 @@
   border-top-width: 60px;
   border-bottom-width: 60px;
   border-radius: 36px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* The horizontal line on the top of the device */
